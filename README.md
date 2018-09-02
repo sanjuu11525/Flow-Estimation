@@ -1,4 +1,4 @@
-# Stereo disparity Estimation
+# Flow Estimation
 The purpose of this project is to implement flow estimation with Semi-Global Method. The pixel-wise cost function with Census transformation is involved as same as the stereo implementation. During cost computation, potential targets are selected based on mapping of corresponding epipolar geometry. In contrast to stereo vision, the monocular epipolar flow estimation requires consecutive images containing the so-called static Focus of Expansion(FOE). Therefore, points are capable of flowing forward or backward depending on the camera’s movement. The fundamental matrix is preliminary, which allows image-level mapping in between. 
 
 The implementation posted here is much for understanding sharing and education purpose. All work is from my interest of computer vision and without carefully refactoring.
